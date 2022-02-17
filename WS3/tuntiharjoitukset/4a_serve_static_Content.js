@@ -9,6 +9,7 @@ app.use(express.static("./public"));
     res.sendFile('/public/index.html');
 });
 */
+
 app.get('/details', function (req, res) {
 
     var data = require(__dirname + '/data/exampledata2.json');
