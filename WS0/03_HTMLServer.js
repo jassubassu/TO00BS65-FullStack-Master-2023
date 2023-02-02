@@ -2,13 +2,13 @@ var http = require("http");
 
 //create a server object:
 http
-  .createServer(function(request, response) {
+  .createServer(function (request, response) {
     response.writeHead(200, { "Content-Type": "text/html" });
 
     response.write("<h1>Miten menee?!<h1>"); //write a response to the client
     response.write("<h2>How are you today</h2>");
     response.write(
-      " <img src='https://software.intel.com/sites/default/files/managed/fa/a0/Runtime-logo-Node.jpg'>"
+      " <img src='https://nodejs.org/static/images/logo.svg' alt = 'Kuva hukuksissa'>"
     );
 
     var data =
