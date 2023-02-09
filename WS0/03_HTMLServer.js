@@ -18,3 +18,4 @@ http
     response.end("<strong>This is the end</strong>"); //end the response
   })
   .listen(8081); //the server object listens on port 8080
+console.log("serveri käynnissä")
